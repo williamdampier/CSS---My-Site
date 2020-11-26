@@ -10,7 +10,7 @@ body {
 
 .top-container {
 
-  padding-top: 30px;
+  padding-top: 100px;
   position: relative;
   background-color: #EAF6F6;
 }
@@ -145,5 +145,5 @@ a:hover {
 .copyright {
   color: #EAF6F6;
   font-size: 0.75rem;
-  padding: 20px 0;
+  padding: 20px 0 100px;
 }
