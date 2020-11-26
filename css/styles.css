@@ -1,34 +1,130 @@
 body {
   margin: 0;
   text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
 }
+
 .top-container {
-  position:relative;
- background-color: #d2f5e3;
- padding-top: 100px;
+  position: relative;
+  background-color: #EAF6F6;
+
 }
+
+.middle-container {
+  margin: 100px 0;
+}
+
+h1 {
+  margin: 50px  0 ;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  padding-bottom: 10px;
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+
+}
+
 h3 {
   margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+
 }
-.middle-container {
-  height: 200px;
-  width: 200px;
-  background-color: red;
+
+p {
+
+  font-weight: bold;
+  line-height: 2;
 }
-.bottom-container {
-  height: 200px;
-  width: 200px;
-  background-color: blue;
+hr {
+  margin: 50px auto 50px auto ;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  width: 5%;
+  color: #EAF6F6;
+
+
 }
-.top-cloud
-{position:absolute;
-right: 300px;
-top:50px;}
-.bottom-cloud
-{position:absolute;
-  left:300px;
+
+.skill-row {
+  margin: 100px auto 100px auto;
+
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+.skill-picture-coding {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-picture-sysadmin {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
   bottom: 300px;
 }
+
 .pro-title {
   text-decoration: underline;
+}
+.footer-link {
+  margin : 50px;
+  padding: 50px auto 50px auto;
+  color: #11999E;
+  font-weight: bold;
+  font-size: 2rem;
+  text-decoration:none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.bottom-container {
+  margin-top: 50px;
+  padding-top: 50px;
+
+  background-color: #66BFBF;
+}
+
+.BUTTON_VSS {
+
+   padding: 10px 30px 10px 30px;
+
+   -webkit-border-radius: 24px;
+   -moz-border-radius: 24px;
+   border-radius: 24px;
+   color: #FFFFFF;
+   font-family: Verdana;
+   font-size: 30px;
+   font-weight: 100;
+   background-color: #66BFBF;
+   border: solid #337FED 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+
 }
